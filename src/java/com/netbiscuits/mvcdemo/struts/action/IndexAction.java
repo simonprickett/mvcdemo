@@ -1,0 +1,16 @@
+package com.netbiscuits.mvcdemo.struts.action;
+
+import com.netbiscuits.mvcdemo.db.Database;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+public class IndexAction extends Action {
+    public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+        request.setAttribute("books", Database.getBooks());
+        return mapping.findForward((String)request.getAttribute("presentationType"));
+    }
+}

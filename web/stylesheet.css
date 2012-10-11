@@ -1,0 +1,321 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,em,img,strike,strong,
+sub,sup,b,u,i,dl,dt,dd,ol,ul,li,form,label,table,tbody,tr,th,td {
+	font-size: 100%;
+}
+
+body {
+    background-color: #FFF;
+    font: 80% Arial,Helvetica,Verdana,sans-serif;
+    margin: 0px;
+	padding: 0px;
+}
+/* ---------- Links ---------- */
+a {
+    color: #369;
+    text-decoration: underline;
+}
+a:hover {
+    color: #06C;
+    text-decoration: none;
+}
+a:visited {
+}
+/* ---------- Headers ---------- */
+a {
+    color: #BF000D;
+    text-decoration: none;
+}
+img {
+	border:0;
+	max-width: 700px;
+}
+hr {
+	border: none 0;
+	border-top: 1px solid #B11800;
+	height: 1px;
+}
+blockquote {
+	margin: 0;
+	margin-left: 1em;
+	font-size: 1.2em;
+}
+a:hover {
+    color: #BF000D;
+    text-decoration: underline;
+}
+pre {
+	font-size: 1.2em;
+}
+pre.codeblock {
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+	background-color: #F1F1F1;
+	white-space: pre-wrap;
+}
+h1.topictitle1 {
+	font-family: 'Trebuchet MS', Trebuchet, Calibri, sans-serif;
+	font-size: 1.7em;
+}
+h2.sectiontitle {
+	font-size: 1.3em;
+}
+.synph, .parmname {
+	color: #BF000D;
+	font-family: "Courier New",Courier,monospace;
+}
+
+.code {
+	font-family: "Courier New",Courier,monospace;
+}	
+
+div.related-links {
+	margin: 20px 0 20px 0;
+	padding-top: 10px;
+	border-top: 1px #ccc solid;
+}
+div.familylinks>div {
+	margin: 4px 0 4px 0;
+}
+div.relinfo>div {
+	margin: 3px 0 3px 0;
+}
+.tablenoborder {
+	margin-top: 1em;
+}
+table {
+	border-spacing: 0px 0px;
+	border-collapse: collapse;
+	border-style: none;
+	border-color: #B11800;
+	width: 100%;
+}
+td, td>p, th {
+	font-size: 0.93em;
+}
+.example {
+	padding: 1em;
+	border: 1px #DDD solid;
+}
+.example .sectiontitle
+{
+	background-color: #F3F3F3;
+	padding: 2px 6px 2px 6px;
+	border-bottom: 2px #DDD solid;
+	margin-top: 0;
+}
+li img {
+	margin: 20px 0px;
+}
+/* for jsdoc and bml ref - reference is a custom css class name setted in merge.xslt */
+.reference .sectiontitle
+{
+	background-color: #B11800;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D73F25), color-stop(1, #B11800) );
+	color: #fff;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #B11800 solid;
+}
+.reference tr.sthead {
+	display: none;	
+}
+.reference table.properties {
+	border-spacing: 0px 0px;
+	border-collapse: collapse;
+	border-style: none;
+	border-color: #B11800;
+	width: 100%;
+}
+.reference td.proptype {
+	width: 15%;
+}
+.reference td.propvalue {
+	width: 35%;
+}
+.reference td.elemsumname {
+	width: 15%;
+}
+.reference .summary.section  {
+	margin-bottom: 0;
+}
+ .detailseparator.section {
+ 	border-bottom: 1px #B11800 solid;
+ }
+.detail dl {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+div.fig {
+	margin: 20px 0px;
+}
+.figcap, .tablecap {
+	font-size:0.8em;
+}
+div.note {
+	border: 1px #B90000 solid;
+	border-left-width: 4px;
+	padding: 8px;
+	background-color: #F8F8F8;
+}
+.notetitle {
+	color: #B90000;
+}
+
+/* layout */
+#header {
+	background-color: #ECECEC;
+	height: 65px;
+}
+#header a {
+	font-size: 11px;
+	color: #565656;
+}
+#headerinner {
+	height: 65px;
+}
+#companylogo {
+	margin: 0px 0px 0px 5px;
+	position: relative;
+	top: 10px;
+	width: 190px;
+}
+#companylink {
+	background-image: url("img_icon_home.png");
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 22px;
+	left: 700px;
+	top: -20px;
+	position: relative;
+	display: block;
+	padding-left: 26px;
+	padding-top: 2px;
+}
+#accountlink {
+	background-image: url("img_icon_account.png");
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 22px;
+	left: 820px;
+	top: -44px;
+	position: relative;
+	display: block;
+	padding-left: 26px;
+	padding-top: 2px;
+}
+#navbar {
+	height: 52px;
+	background-color: #B11800;
+	background-image: url("img_header_kbbg.png");
+	color: #fff;
+	text-align: left;
+}
+#navbarinner {
+	background-image: url("img_header_kbot.png");
+	background-repeat: no-repeat;
+	height: 52px;
+}
+#kbtitle {
+	margin: 0px 0px 0px 8px;
+	position: relative;
+	top: 12px;
+	width: 260px;
+	
+}
+#kbtitle p {
+	margin:0;
+	font-size: 0.8em;
+}
+#kbtitle h1 {
+	margin:0;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+#kbsearch {
+	margin: 0px 0px 0px 5px;
+	position: relative;
+	top: -16px;
+	left: 780px;
+	width: 260px;
+}
+
+div#wrapper, #headerinner, #navbarinner {
+	width:1020px;
+	margin:0 auto;
+}
+#index
+{
+	float: left;
+	width: 240px;
+	background-color: #F2F2F2;
+	padding: 10px;
+	height: auto;
+	min-height: 80%;
+}
+
+#content
+{
+	margin-left: 10px;
+	padding-top: 24px;
+	width: 750px;
+	float: left;
+	min-height: 80%;
+	border-bottom: 1px solid #B11800;
+}
+
+div#index ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+div#index li
+{
+	xmargin: 0 0 8px 0;
+}
+div#index ul li ul
+{
+	margin: 8px 0 0 12px;
+}
+div#index>ul {
+	xborder-bottom: 1px solid #B11800;
+	
+}
+div#index>ul>li {
+	xborder-top: 1px solid #B11800;
+	xpadding-top:4px;
+	margin: 0 0 18px 0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+div#index>ul>li>ul>li {
+	font-size: 0.87em;
+	font-weight: normal;
+	margin: 7px 0 7px 0;
+}
+div#index>ul>li>ul>li>ul>li {
+	font-size: 0.93em;
+	font-weight: normal;
+	margin: 4px 0 4px 0;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 0.8em;
+}
+
+#currentlab {
+	background-color: #CCCCCC;	
+}
+
+#currentstep {
+	background-color: #AAAAAA;
+}
